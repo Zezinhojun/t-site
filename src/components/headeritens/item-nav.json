@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_headeritens_item_navs",
+  "info": {
+    "displayName": "itemNav",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemNav": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

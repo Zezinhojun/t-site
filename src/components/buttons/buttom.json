@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_buttons_buttoms",
+  "info": {
+    "displayName": "buttom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttonName": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "styleButton": {
+      "type": "enumeration",
+      "enum": [
+        "btn primary-btn transparent btn-default",
+        "btn primary-btn btn-default",
+        "btn btn-white btn-default",
+        "btn btn-default btn-gradient m-t-50"
+      ]
+    }
+  }
+}

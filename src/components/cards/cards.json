@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_cards_cards",
+  "info": {
+    "displayName": "Cards",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "h3": {
+      "type": "text"
+    },
+    "p": {
+      "type": "text"
+    },
+    "h4": {
+      "type": "text"
+    },
+    "h2": {
+      "type": "text"
+    },
+    "h6": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "imageIcon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

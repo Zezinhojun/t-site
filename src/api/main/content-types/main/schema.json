@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mains",
+  "info": {
+    "singularName": "main",
+    "pluralName": "mains",
+    "displayName": "Main",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textname": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "displayName": "buttom",
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.buttom"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mainText": {
+      "type": "richtext"
+    },
+    "text": {
+      "type": "text"
+    },
+    "styleButton": {
+      "type": "enumeration",
+      "enum": [
+        "btn-white",
+        "primary-btn",
+        "primary-btn transparent"
+      ]
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main-types.cards"
+    },
+    "buttonClass": {
+      "displayName": "buttonClass",
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.button-class"
+    }
+  }
+}

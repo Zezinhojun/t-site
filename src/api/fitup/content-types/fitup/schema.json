@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "fitups",
+  "info": {
+    "singularName": "fitup",
+    "pluralName": "fitups",
+    "displayName": "Fitup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "site"
+    },
+    "mains": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::main.main"
+    }
+  }
+}

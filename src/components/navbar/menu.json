@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_navbar_menus",
+  "info": {
+    "displayName": "Menu",
+    "icon": "paperPlane",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "displayName": "navLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.nav-link"
+    },
+    "menuitem": {
+      "type": "string"
+    }
+  }
+}

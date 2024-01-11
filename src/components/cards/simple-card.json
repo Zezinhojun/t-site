@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_simple_card_simple_cards",
+  "info": {
+    "displayName": "simpleCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagesimplecard": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "h3simplecard": {
+      "type": "string"
+    },
+    "psimplecard": {
+      "type": "string"
+    }
+  }
+}

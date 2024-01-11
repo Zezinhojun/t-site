@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_buttons_button_classes",
+  "info": {
+    "displayName": "buttonClass",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttonName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
